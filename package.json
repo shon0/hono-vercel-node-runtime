@@ -1,0 +1,17 @@
+{
+  "name": "hono-vercel-node-runtime",
+  "type": "module",
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel",
+    "tsc": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@hono/node-server": "1.13.1",
+    "hono": "4.6.3"
+  },
+  "devDependencies": {
+    "typescript": "5.6.2",
+    "vercel": "32.7.2"
+  }
+}
